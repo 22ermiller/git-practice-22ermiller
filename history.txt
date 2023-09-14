@@ -1,0 +1,437 @@
+ 1009  git status
+ 1010  git add .
+ 1011  git commit -m "learning leader tab created"
+ 1012  git status
+ 1013  git push
+ 1019  git status
+ 1020  git add .
+ 1021  git commit -m "finished ll modules"
+ 1022  git status
+ 1023  git push
+ 1024  git checkout master
+ 1025  git status
+ 1026  git pull
+ 1027  git checkout evan2
+ 1028  git status
+ 1029  git checkout master
+ 1030  git status
+ 1031  git merge evan2
+ 1032  git commit -m "merge conflicts resolved"
+ 1033  git add .
+ 1034  git commit -m "merge conflicts resolved"
+ 1035  git status
+ 1036  git push
+ 1074  git branch
+ 1075  git status
+ 1076  git checkout evan2
+ 1131  git status
+ 1135  git init
+ 1136  git add .
+ 1137  git commit -m "Initial commit"
+ 1138  git remote add origin https://github.com/staritasolutions/ConversionTimeAnalysis.git
+ 1139  git push -u origin master
+ 1140  git branch
+ 1142  git clone https://github.com/staritasolutions/ConversionTimeAnalysis.git
+ 1146  git status
+ 1147  git add .
+ 1148  git commit -m "initial commit"
+ 1149  git status
+ 1150  git push
+ 1151  git status
+ 1152  git add .
+ 1153  git commit -m "continued eda"
+ 1154  git push
+ 1157  git branch
+ 1158  git status
+ 1159  git checkout master
+ 1160  git add .
+ 1161  git commit -m "tinkering with data sources"
+ 1162  git status
+ 1163  git checkout master
+ 1164  git status
+ 1165  git pull
+ 1178  git branch
+ 1179  git checkout evan2
+ 1180  git status
+ 1181  git checkout master
+ 1182  git branch -D evan2
+ 1183  git branch
+ 1184  git pull
+ 1185  git branch
+ 1186  git fetch
+ 1187  git branch
+ 1188  git branch -a
+ 1189  git checkout data_connection 
+ 1190  git branch
+ 1199  git branch
+ 1202  git branch
+ 1259  git branch
+ 1260  git status
+ 1261  git add .
+ 1262  git commit -m "connect meevo to azure"
+ 1263  git status
+ 1264  git push
+ 1273  git branch
+ 1274  git status
+ 1275  git add .
+ 1276  git commit -m "authentication functionality added"
+ 1277  git status
+ 1278  git push
+ 1281  git branch
+ 1282  git checkout master 
+ 1283  git status
+ 1284  git pull
+ 1285  git branch
+ 1286  git branch -a
+ 1287  git checkout -b data_connection_ui origin/data_connection_ui
+ 1288  git status
+ 1289  git branch
+ 1290  git add .
+ 1291  git commit -m "removed data connections"
+ 1292  git status
+ 1293  git push
+ 1294  git checkout master
+ 1295  git pull
+ 1296  git status
+ 1297  git restore R/app_server.R
+ 1298  git status
+ 1299  git pull
+ 1300  git status
+ 1301  git add .
+ 1302  git commit -m "description file change"
+ 1303  git branch
+ 1304  git push
+ 1305  git status
+ 1306  git push
+ 1307  git branch
+ 1308  git push origin master
+ 1309  git push
+ 1310  git branch
+ 1311  git branch -d data_connection_ui
+ 1312  git branch
+ 1313  git checkout data_connection
+ 1314  git status
+ 1316  git branch
+ 1317  git status
+ 1318  git add .
+ 1319  git message "nothing"
+ 1320  git commit -m  "nothing"
+ 1321  git push
+ 1322  git branch -a
+ 1323  git pull
+ 1324  git checkout -b stg origin/stg
+ 1325  git status
+ 1326  git add . 
+ 1327  git commit -m "reconnected data sources"
+ 1328  git push
+ 1333  git status
+ 1336  git branch
+ 1337  git -b checkout dev origin/dev
+ 1338  git checkout -b dev origin/dev
+ 1339  git branch
+ 1342  git branch
+ 1343  git status
+ 1344  git add .
+ 1345  git commit -m "ui changes to implement data connections"
+ 1346  git push
+ 1347  git status
+ 1356  git branch
+ 1357  git status
+ 1358  git add .
+ 1359  git commit -m "fixed bug with filter_crm function program filter"
+ 1360  git push
+ 1361  git status
+ 1363  git branch
+ 1364  git status
+ 1365  git checkout stg
+ 1366  git status
+ 1367  git add .
+ 1368  git commit -m "added connections for adhoc and scorecard"
+ 1369  git status
+ 1370  git push
+ 1371  git pull
+ 1372  history | grep "git checkout"
+ 1373  git branch
+ 1374  git checkout -b stg2 origin/stg2
+ 1375  git status
+ 1376  git add .
+ 1377  git commit -m "changes to implement adhoc and scorecard and ll data connections"
+ 1378  git status
+ 1379  git push
+ 1380  git status
+ 1381  git branch
+ 1387  git branch
+ 1388  git checkout dev
+ 1389  git status
+ 1390  git add .
+ 1391  git commit -m "updated the school_codes and program csv's (mis-spelled names & missing programs)"
+ 1392  git push
+ 1393  git status
+ 1395  git status
+ 1396  git add .
+ 1397  git commit -m "necessary changes because of school_codes and program.csv changing"
+ 1398  git push
+ 1400  git branch
+ 1401  git status
+ 1402  git checkout stg
+ 1403  git checkout stg2
+ 1404  git status
+ 1406  git branch
+ 1407  git status
+ 1408  git checkout stg
+ 1409  git status
+ 1411  git branch
+ 1412  git checkout dev
+ 1444  git branch
+ 1445  git status
+ 1446  git checkout stg2
+ 1447  git checkout dev
+ 1448  git status
+ 1449  git add .
+ 1450  git commit -m "changed paul mitchell logo"
+ 1451  git push
+ 1454  git branch
+ 1455  git status
+ 1456  git checkout stg2
+ 1461  git status
+ 1462  git add .
+ 1463  git commit -m "ui changes needed for presentation"
+ 1464  git push
+ 1465  git status
+ 1466  git add .
+ 1467  git commit -m "moved passwords and keys into a configuration file"
+ 1475  git status
+ 1476  git add .
+ 1477  git commmit -m "added data loading spinner and necessary packages"
+ 1478  git push
+ 1479  git status
+ 1480  git commit -m "added data loading spinner and necessary packages"
+ 1481  git push
+ 1482  git status
+ 1485  git status
+ 1507  git status
+ 1508  git add .
+ 1509  git commit -m "asynch background processes added"
+ 1510  git push
+ 1517  git status
+ 1519  git status
+ 1520  git diff
+ 1521  git add .
+ 1522  git commit -m "deleted data grabbing parts of server code (all in functions now)"
+ 1523  git status
+ 1524  git push
+ 1525  git branch
+ 1526  git checkout dev
+ 1527  git status
+ 1528  git pull
+ 1531  git status
+ 1532  git add .
+ 1533  git commit -m "created weekly overview tab with weekly overview table and start date by month table"
+ 1534  git status
+ 1535  git push
+ 1536  git status
+ 1538  git status
+ 1539  git add .
+ 1540  git commit -m "added net_drop % logic"
+ 1541  git push
+ 1545  git status
+ 1546  git pull
+ 1547  git status
+ 1548  git add .
+ 1549  git commit -m "added net_drop percentage box to weekly overview tab"
+ 1550  git push
+ 1551  git status 
+ 1552  git add .
+ 1553  git commit -m "changed width of net drop box"
+ 1554  git push
+ 1555  git status
+ 1556  git add .
+ 1557  git commit -m "added goals as package data"
+ 1558  git push
+ 1563  git status
+ 1564  git pull
+ 1567  git status
+ 1568  git add .
+ 1569  git commit -m "bug in name of clinic goals file"
+ 1570  git push
+ 1573  git status
+ 1574  git add .
+ 1575  git commit -m "made changes to clinic goals to make them daily. and started putting them into the weekly overview tab"
+ 1576  git push
+ 1577  git status
+ 1586  git status
+ 1621  git status
+ 1622  git pull
+ 1623  git fetch
+ 1624  git pull
+ 1671  git status
+ 1672  git add .
+ 1673  git commit -m "integrated all data sources for deployment for NorthStar Group"
+ 1674  git push
+ 1682  git status
+ 1683  git add .
+ 1684  git pull
+ 1685  git commit -m "admissions goals changes"
+ 1686  git push
+ 1687  git status
+ 1688  git pull
+ 1689  git checkout master
+ 1690  git pull
+ 1691  git status
+ 1692  git pull
+ 1693  git checkout origin/deploy1 deploy1
+ 1694  git checkout deploy1 origin/deploy1
+ 1695  git checkout -b deploy1 origin/deploy1
+ 1696  git status
+ 1704  git status
+ 1705  git add .
+ 1706  git commit -m "changes to make data imports faster for testing"
+ 1707  git push
+ 1708  git checkout master
+ 1709  git pull
+ 1716  git status
+ 1717  git commit -m "changed attendance percent goal to .9"
+ 1718  git add
+ 1719  git add .
+ 1720  git commit -m "changed attendance percent goal to .9"
+ 1721  git push
+ 1722  git status
+ 1728  git status
+ 1729  git add .
+ 1730  git commit -m "commented out lines that reduce data sets"
+ 1731  git push
+ 1783  git status
+ 1784  git branch
+ 1785  git add .
+ 1786  git commit -m "deleted unnecesary data files and changed favicon to starita solutions icon"
+ 1787  git push
+ 1794  mkdir git_practice
+ 1795  cd git_practice/
+ 1798  git status
+ 1799  git init
+ 1800  git status
+ 1805  rm -rf .git
+ 1807  git status
+ 1808  git init
+ 1810  git status
+ 1811  git add file_1.txt 
+ 1812  git status
+ 1813  git commit -m "create file_1.txt"
+ 1814  git status
+ 1815  git log
+ 1817  git config -l
+ 1824  git status
+ 1825  git add .
+ 1826  git status
+ 1827  git commit -m "Added data and eda file"
+ 1828  git push
+ 1844  git config --global 
+ 1845  git config --global user.name
+ 1846  git config --global user.email
+ 1856  git status
+ 1857  git add .
+ 1858  git commit -m "created eda plots and saved as an image"
+ 1859  git push
+ 1860  git status
+ 1867  cd git_practice/
+ 1869  git status
+ 1872  git status
+ 1873  git add .
+ 1874  git commit -m "create new files"
+ 1875  git status
+ 1876  git log
+ 1879  git status
+ 1880  git add file_1.txt 
+ 1881  git commit -m "changed file_1"
+ 1882  git add file_2.txt 
+ 1883  git commit -m "changed file_2"
+ 1884  git status
+ 1885  git log
+ 1888  git status
+ 1889  git add .
+ 1890  git commit -m "created readme file"
+ 1891  touch .gitignore
+ 1892  nano .git
+ 1893  nano .gitignore 
+ 1894  git add .
+ 1895  git commit -m "added gitignore file"
+ 1896  git status
+ 1898  git status
+ 1900  git status
+ 1901  git branch features
+ 1902  git checkout features 
+ 1903  git log
+ 1905  git add .
+ 1906  git commit -m "added new_features file"
+ 1907  git status
+ 1909  git add .
+ 1910  git commit -m "added text to new_features.txt"
+ 1911  git status
+ 1912  git checkout master 
+ 1915  git add .
+ 1916  git commit -m "made changes to file_1.txt"
+ 1917  git status
+ 1918  git merge features
+ 1919  git log
+ 1921  git add .
+ 1922  git commit -m "changed new_feature.txt"
+ 1923  git checkout features 
+ 1925  git add .
+ 1926  git commit -m "changes to new_features.txt"
+ 1927  git checkout master 
+ 1928  git merge features 
+ 1930  git commit -m "completed merge"
+ 1931  git merge features 
+ 1932  git status
+ 1933  git add .
+ 1934  git commit -m "edited merge conflict"
+ 1935  git status
+ 1936  git branch
+ 1937  git branch --delete features
+ 1938  git branch
+ 1940  git remote add origin git@github.com:22ermiller/git-practice-22ermiller.git
+ 1941  git push -u origin main
+ 1942  git push -u origin master
+ 1946  git remote add origin git@github.com:22ermiller/git-practice-22ermiller.git
+ 1947  git push -u origin main
+ 1948  git push -u origin master
+ 1949  git config --global init.defaultBranch main
+ 1951  git status
+ 1952  git add .
+ 1953  git commit -m "data cleaning in BikeSharAnalysis file"
+ 1954  git push
+ 1957  git clone git@github.com:22ermiller/git-practice-wijama.git
+ 1959  cd git-practice-wijama/
+ 1962  git status
+ 1963  git add .
+ 1964  git commit -m "added more changes to the new_features.txt file"
+ 1965  git push origin feature-22ermiller
+ 1967  rm -r git-practice-wijama/
+ 1969  rm -r git-practice-wijama/
+ 1971  git clone git@github.com:22ermiller/git-practice-wijama.git
+ 1972  git branch feature-22ermiller
+ 1973  cd git-practice-wijama/
+ 1974  git branch feature-22ermiller
+ 1975  git checkout feature-22ermiller 
+ 1978  git status
+ 1979  git add .
+ 1980  git commit -m "added some more features to new_features.txt"
+ 1981  git push origin feature-22ermiller 
+ 1985  cd git_practice/
+ 1986  git branch
+ 1987  git branch -r
+ 1989  cd Documents/Stat\ 386/git-practice-wijama/
+ 1990  git branch
+ 1993  git status
+ 1994  git add .
+ 1995  git commit -m "changed the new_features that conflicted with previous code"
+ 1996  git push
+ 1997  git status
+ 1998  git push --set-upstream origin feature-22ermiller
+ 1999  git push origin feature-22ermiller 
+ 2000  git status
+ 2003  cd git_practice/
+ 2004  git status
+ 2005  git pull
+ 2007  git log --oneline > gitlog.txt
+ 2008  history | grep git > history.txt

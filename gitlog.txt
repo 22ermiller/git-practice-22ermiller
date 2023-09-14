@@ -1,0 +1,15 @@
+4e653bc Merge pull request #1 from WiJaMa/feature-wijama
+64eb46f add incredible new feature
+e1eeb7a edited merge conflict
+a31daec changes to new_features.txt
+e2f418a changed new_feature.txt
+07fe61c Merge branch 'features'
+62c62dc made changes to file_1.txt
+5707614 added text to new_features.txt
+dec9d9a added new_features file
+f09b1d8 added gitignore file
+346443b created readme file
+7481b99 changed file_2
+6ee942a changed file_1
+039a8eb create new files
+4d82a64 create file_1.txt
